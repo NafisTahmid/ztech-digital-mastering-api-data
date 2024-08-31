@@ -7,8 +7,6 @@ data = res.json()
 with open("new_file.txt", "r", encoding="utf-8") as file:
     urls = file.readlines()
 
-
-
 with open('company_information.csv', "a+", newline='', encodings="utf-8") as csvfile:
     fieldnames = [
         'company_name',
